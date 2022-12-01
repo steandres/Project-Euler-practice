@@ -13,7 +13,7 @@ public class Multiples {
         int numTwo = 5;
         int total = 0;
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 1000; i++) {
             if (i % numOne == 0){
                 total += i;
             }
@@ -22,8 +22,8 @@ public class Multiples {
             }
         }
 
-        System.out.println("The sum of these multiples is "+total);
-        
+        System.out.println("The sum of all the multiples of 3 or 5 below 1000 is: "+total);
+
     }
 }
 
